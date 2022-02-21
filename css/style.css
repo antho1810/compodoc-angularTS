@@ -1,0 +1,56 @@
+@import "./reset.css";
+@import "./bootstrap.min.css";
+@import "./bootstrap-card.css";
+@import "./prism.css";
+@import "./ionicons.min.css";
+@import "./compodoc.css";
+@import "./tablesort.css";
+
+/*Mis estilos*/
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+.menu .title {
+    margin-top: 200px;
+}
+
+.menu {
+    background: url('bookcase.png') no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: 140px;
+    background-position-y: 10%;
+    background-position-x: 50%;
+}
+
+.title {
+    background-color: orange;
+}
+
+.title a {
+    color: white !important;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#book-search-input {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: 25px;
+}
+
+code {
+    color: blue;
+}
+
+a {
+    color: yellow;
+}
